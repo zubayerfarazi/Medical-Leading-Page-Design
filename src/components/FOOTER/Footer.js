@@ -19,16 +19,16 @@ const Footer = () => {
           <p className="footerPhone">+1-887*****78787</p>
           <p className="footerEmail">info@demohelp.com</p>
           <div className="social-icons">
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com" aria-label="Facebook">
               <FaFacebook />
             </a>
-            <a href="#" aria-label="Twitter">
+            <a href="https://www.twitter.com" aria-label="Twitter">
               <FaTwitter />
             </a>
-            <a href="#" aria-label="YouTube">
+            <a href="https://www.youtube.com" aria-label="YouTube">
               <FaYoutube />
             </a>
-            <a href="#" aria-label="Pinterest">
+            <a href="https://www.pinterest.com/" aria-label="Pinterest">
               <FaPinterest />
             </a>
           </div>
