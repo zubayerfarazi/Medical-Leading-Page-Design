@@ -21,8 +21,6 @@
 .contactPara {
   width: 808px;
   height: 44px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -94,7 +92,6 @@ form {
   gap: 7.32px;
   border-radius: 10px;
   border: 1px solid rgba(208, 213, 221, 1);
-  opacity: 0px;
   color: rgba(255, 255, 255, 1);
   box-shadow: rgba(16, 24, 40, 0.05);
 }

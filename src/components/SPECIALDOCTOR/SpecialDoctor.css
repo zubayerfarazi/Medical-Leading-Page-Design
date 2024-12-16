@@ -20,8 +20,6 @@
 .specialDoctorPara {
   width: 605px;
   height: 72px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -42,7 +40,6 @@
   font-family: "open sans";
   border-radius: 10px;
   border: 1px;
-  opacity: 0px;
   background-color: (245, 245, 245, 1);
 }
 
@@ -51,9 +48,8 @@
   height: 310px;
   top: 19.45px;
   left: 19.45px;
-  gap: 0px;
+
   border-radius: 9.73px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .doctorName {
