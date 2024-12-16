@@ -6,6 +6,10 @@ import { FaFacebook, FaTwitter, FaYoutube, FaPinterest } from "react-icons/fa";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Footer = () => {
+  const openLink = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <footer>
       <div className="footer-container">
@@ -19,18 +23,30 @@ const Footer = () => {
           <p className="footerPhone">+1-887*****78787</p>
           <p className="footerEmail">info@demohelp.com</p>
           <div className="social-icons">
-            <a href="https://www.facebook.com" aria-label="Facebook">
-              <FaFacebook />
-            </a>
-            <a href="https://www.twitter.com" aria-label="Twitter">
+            <button
+              onClick={() => openLink("https://www.facebook.com")}
+              aria-label="Facebook"
+            >
+              <FaFacebook className="footerbtn" />
+            </button>
+            <button
+              onClick={() => openLink("https://www.twitter.com")}
+              aria-label="Twitter"
+            >
               <FaTwitter />
-            </a>
-            <a href="https://www.youtube.com" aria-label="YouTube">
+            </button>
+            <button
+              onClick={() => openLink("https://www.youtube.com")}
+              aria-label="YouTube"
+            >
               <FaYoutube />
-            </a>
-            <a href="https://www.pinterest.com/" aria-label="Pinterest">
+            </button>
+            <button
+              onClick={() => openLink("https://www.pinterest.com")}
+              aria-label="Pinterest"
+            >
               <FaPinterest />
-            </a>
+            </button>
           </div>
         </div>
 
@@ -40,23 +56,33 @@ const Footer = () => {
             <ul>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">About Us</a>
+                <p onClick={() => openLink("#")} aria-label="About Us">
+                  About Us
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Our Pricing</a>
+                <p onClick={() => openLink("#")} aria-label="Our Pricing">
+                  Our Pricing
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Our Gallery</a>
+                <p onClick={() => openLink("#")} aria-label="Our Gallery">
+                  Our Gallery
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Appointment</a>
+                <p onClick={() => openLink("#")} aria-label="Appointment">
+                  Appointment
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Privacy Policy</a>
+                <p onClick={() => openLink("#")} aria-label="Privacy Policy">
+                  Privacy Policy
+                </p>
               </li>
             </ul>
           </div>
@@ -66,23 +92,33 @@ const Footer = () => {
             <ul>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Orthology</a>
+                <p onClick={() => openLink("#")} aria-label="Orthology">
+                  Orthology
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Neurology</a>
+                <p onClick={() => openLink("#")} aria-label="Neurology">
+                  Neurology
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Dental Care</a>
+                <p onClick={() => openLink("#")} aria-label="Dental Care">
+                  Dental Care
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Opthalmology</a>
+                <p onClick={() => openLink("#")} aria-label="Opthalmology">
+                  Opthalmology
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Cardiology</a>
+                <p onClick={() => openLink("#")} aria-label="Cardiology">
+                  Cardiology
+                </p>
               </li>
             </ul>
           </div>
@@ -92,23 +128,33 @@ const Footer = () => {
             <ul>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">About Us</a>
+                <p onClick={() => openLink("#")} aria-label="About Us">
+                  About Us
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Our Blog</a>
+                <p onClick={() => openLink("#")} aria-label="Our Blog">
+                  Our Blog
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Our Gallery</a>
+                <p onClick={() => openLink("#")} aria-label="Our Gallery">
+                  Our Gallery
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Appointment</a>
+                <p onClick={() => openLink("#")} aria-label="Appointment">
+                  Appointment
+                </p>
               </li>
               <li>
                 <MdOutlineKeyboardArrowRight className="arrowIcon" />
-                <a href="#">Privacy Policy</a>
+                <p onClick={() => openLink("#")} aria-label="Privacy Policy">
+                  Privacy Policy
+                </p>
               </li>
             </ul>
           </div>
