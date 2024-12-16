@@ -1,0 +1,114 @@
+.serviceSection {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.serviceHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 13, 68, 1);
+}
+
+.serviceFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 73, 144, 1);
+  text-transform: uppercase;
+}
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px; /* Maintain consistent card width */
+  height: 268px;
+  border-radius: 19px;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.serviceCard img {
+  width: 72.48px;
+  height: 72.48px;
+  top: 27.18px;
+  left: 94.23px;
+  padding: 14.49px 13.59px 12.69px 13.59px;
+  gap: 0px;
+  border-radius: 90px;
+  opacity: 0px;
+  background: rgba(230, 233, 238, 1);
+}
+
+.serviceCardHeader {
+  font-family: "Open Sans";
+  font-size: 21.74px;
+  font-weight: 600;
+  line-height: 30.81px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 13, 68, 1);
+  padding: 10px 0;
+}
+
+.serviceCardParagraph {
+  font-family: "Open Sans";
+  font-size: 15.48px;
+  font-weight: 400;
+  line-height: 25.37px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(120, 128, 148, 1);
+  padding: 0 0 10px 0;
+}
+
+.readButton {
+  width: 126.85px;
+  height: 41.68px;
+  top: 199.63px;
+  left: 67.05px;
+  gap: 0px;
+  border-radius: 27px;
+  opacity: 0px;
+  background: linear-gradient(
+    180deg,
+    #004990 37.5%,
+    rgba(240, 244, 255, 0.99) 100%
+  );
+  box-shadow: rgba(184, 191, 208, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.readButton:hover {
+  background: linear-gradient(
+    180deg,
+    #0c6bcb 37.5%,
+    rgba(240, 244, 255, 0.99) 100%
+  );
+}

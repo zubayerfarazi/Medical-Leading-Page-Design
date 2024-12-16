@@ -1,0 +1,22 @@
+.flexIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flexIcon img {
+  width: 28px;
+  height: 28px;
+}
+
+.flexIcon p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 73, 144, 1);
+  text-transform: uppercase;
+}

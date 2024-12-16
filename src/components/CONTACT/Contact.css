@@ -1,0 +1,179 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  font-family: "open sans";
+}
+
+.contactHeading {
+  margin: 10px 0;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 13, 68, 1);
+}
+
+.contactPara {
+  width: 808px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(120, 128, 148, 1);
+}
+
+.formFlex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.contactImage {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.formDesign {
+  width: 50%;
+  max-width: 500px;
+  padding: 30px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 2px solid rgba(25, 91, 156, 1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formRow {
+  display: flex;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 25.54px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(60, 73, 89, 1);
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 212px;
+  height: 51px;
+  padding: 10.98px 14.65px 10.98px 14.65px;
+  gap: 7.32px;
+  border-radius: 10px;
+  border: 1px solid rgba(208, 213, 221, 1);
+  opacity: 0px;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(16, 24, 40, 0.05);
+}
+
+.formGroup input.emailInput,
+.formGroup input.dateInput,
+.formGroup textarea {
+  width: 100%;
+}
+
+.formGroup input.dateInput {
+  color: black;
+}
+
+::placeholder {
+  font-size: 12.81px;
+  font-weight: 400;
+  line-height: 19.86px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(102, 112, 133, 1);
+}
+
+.phoneInput {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.countryCode {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  flex: 1;
+}
+
+.phoneNumber {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 2;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitButton {
+  background: linear-gradient(180deg, #014990 37.5%, #daedff 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1024px) {
+  .formRow {
+    flex-wrap: wrap;
+  }
+  .phoneInput {
+    flex-wrap: wrap;
+  }
+}
